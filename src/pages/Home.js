@@ -16,7 +16,7 @@ const Home = () => {
     <div
       style={{
         width: `${screenWidth}px`,
-        height: `${screenHeight}px`,
+        height: `${screenHeight-46}px`,
         backgroundColor: "#282c34",
       }}
     >
