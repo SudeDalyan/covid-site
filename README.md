@@ -1,2 +1,3 @@
 # covid-site
-![Ekran Resmi 2024-05-03 05 58 34](https://github.com/SudeDalyan/covid-site/assets/64406311/7b94c906-44d6-4220-a0d6-de9e32342a9d)
+<img width="1440" alt="Ekran Resmi 2024-05-06 00 15 51" src="https://github.com/SudeDalyan/covid-site/assets/64406311/daab8156-8c07-4e06-b4e9-fe54eecf6879">
+![Uploading Ekran Resmi 2024-05-06 00.15.59.png…]()
