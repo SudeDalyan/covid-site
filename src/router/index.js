@@ -1,18 +1,20 @@
-import React from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import React from "react";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 
-import { HomePage } from '../pages/';
+import HomePage from "../pages/Home";
+import Country from "../pages/Country";
 
-const index = (props) => {
+const App = (props) => {
   return (
     <div>
       <BrowserRouter>
         <Switch>
-          <Route path="/" component={HomePage} />
+          <Route path="/" exact component={HomePage} />
+          <Route path="/country/:countryCode" component={Country} />
         </Switch>
       </BrowserRouter>
     </div>
   );
 };
 
-export default index;
+export default App;

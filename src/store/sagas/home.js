@@ -5,7 +5,6 @@ import * as actions from "../actions";
 export function* fetchHomeSaga(action) {
   try {
     const country = action.payload.country;
-    console.log(country);
     if (country === undefined) {
       const url = `https://covid-19.dataflowkit.com/v1/world`;
       const response = yield axios.get(url);
